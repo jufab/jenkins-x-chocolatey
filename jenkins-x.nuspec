@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <!-- == PACKAGE SPECIFIC SECTION == -->
+    <id>jenkins-x</id>
+    <version>1.2.77</version>
+    <packageSourceUrl>https://github.com/jufab/jenkins-x-chocolatey</packageSourceUrl>
+    <owners>Julien FABRE</owners>
+    <!-- ============================== -->
+    <!-- == SOFTWARE SPECIFIC SECTION == -->
+    <title>jenkins-x</title>
+    <authors>Julien FABRE</authors>
+    <copyright></copyright>
+    <projectUrl>https://jenkins-x.io/</projectUrl>
+    <iconUrl>http://jenkins-x.io/img/profile.png</iconUrl>
+    <licenseUrl>https://github.com/jenkins-x/jx/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/jenkins-x/jx</projectSourceUrl>
+    <docsUrl>https://jenkins-x.io/documentation/</docsUrl>
+    <bugTrackerUrl>https://github.com/jenkins-x/jx/issues</bugTrackerUrl>
+    <tags>jenkins jenkins-x</tags>
+    <summary>jenkins-x</summary>
+    <description>Jenkins-x</description>
+    <!-- =============================== -->
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
