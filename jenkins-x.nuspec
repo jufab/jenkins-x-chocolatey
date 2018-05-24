@@ -3,7 +3,7 @@
   <metadata>
     <!-- == PACKAGE SPECIFIC SECTION == -->
     <id>jenkins-x</id>
-    <version>1.2.77</version>
+    <version>1.2.79</version>
     <packageSourceUrl>https://github.com/jufab/jenkins-x-chocolatey</packageSourceUrl>
     <owners>Julien FABRE</owners>
     <!-- ============================== -->
@@ -20,7 +20,7 @@
     <bugTrackerUrl>https://github.com/jenkins-x/jx/issues</bugTrackerUrl>
     <tags>jenkins jenkins-x</tags>
     <summary>jenkins-x</summary>
-    <description>Jenkins-x</description>
+    <description>https://jenkins-x.io/</description>
     <!-- =============================== -->
   </metadata>
   <files>
