@@ -8,7 +8,7 @@
     <owners>Julien FABRE</owners>
     <!-- ============================== -->
     <!-- == SOFTWARE SPECIFIC SECTION == -->
-    <title>jenkins-x</title>
+    <title>Jenkins X</title>
     <authors>Julien FABRE</authors>
     <copyright></copyright>
     <projectUrl>https://jenkins-x.io/</projectUrl>
@@ -20,8 +20,9 @@
     <bugTrackerUrl>https://github.com/jenkins-x/jx/issues</bugTrackerUrl>
     <tags>jenkins jenkins-x</tags>
     <summary>jenkins-x</summary>
-    <description>https://jenkins-x.io/</description>
+    <description>Jenkins X is a CI/CD solution for modern cloud applications on Kubernetes</description>
     <!-- =============================== -->
+    <releaseNotes>https://github.com/jenkins-x/jx/releases</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
