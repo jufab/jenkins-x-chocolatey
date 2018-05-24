@@ -3,13 +3,13 @@
   <metadata>
     <!-- == PACKAGE SPECIFIC SECTION == -->
     <id>jenkins-x</id>
-    <version>1.2.79</version>
+    <version>1.2.77</version>
     <packageSourceUrl>https://github.com/jufab/jenkins-x-chocolatey</packageSourceUrl>
-    <owners>Julien FABRE</owners>
+    <owners>Julien Fabre</owners>
     <!-- ============================== -->
     <!-- == SOFTWARE SPECIFIC SECTION == -->
     <title>Jenkins X</title>
-    <authors>Julien FABRE</authors>
+    <authors>James Strachan</authors>
     <copyright></copyright>
     <projectUrl>https://jenkins-x.io/</projectUrl>
     <iconUrl>http://jenkins-x.io/img/profile.png</iconUrl>
