@@ -4,8 +4,8 @@ $packageName = 'jenkins-x'
 $toolsPath = Split-Path $MyInvocation.MyCommand.Definition
 $version = $env:ChocolateyPackageVersion
 $url = "https://github.com/jenkins-x/jx/releases/download/v$version/jx-windows-amd64.zip"
-#1.2.94
-$checksum = "43db1062973437540a887900633f8e8b8423d5500ceffa4d560a8f6062ea5496" 
+#1.2.95
+$checksum = "7e8d98c778f75088196f49ba2e87db96e6c114b688bb57bdea18325155160f08" 
 $checksumtype = "sha256" 
 
 $packageArgs = @{
