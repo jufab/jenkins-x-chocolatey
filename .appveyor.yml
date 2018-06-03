@@ -4,4 +4,14 @@ pull_requests:
 skip_non_tags: true
 shallow_clone: true
 build_script:
-- ps: choco pack; Push-Package -All;
+- ps: choco pack
+artifacts:
+- path: '**\*.nupkg'
+  name: ChocoPackage
+deploy:
+- provider: NuGet
+  server: https://push.chocolatey.org/
+  api_key:
+    secure: NwN4m3lQg5sfkTG4qKDwSSC+jR3bKLkW6ofeGTPZ4k8MtusQSSG5rTpKObwzw2Po
+  skip_symbols: true
+  artifact: '**\*.nupkg'
