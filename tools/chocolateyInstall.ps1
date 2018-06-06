@@ -1,5 +1,3 @@
-$ErrorActionPreference = 'Stop';
-
 $packageName = 'jenkins-x'
 $toolsPath = Split-Path $MyInvocation.MyCommand.Definition
 $version = $env:ChocolateyPackageVersion
