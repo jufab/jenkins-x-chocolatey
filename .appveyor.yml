@@ -11,6 +11,6 @@ deploy:
 - provider: NuGet
   server: https://push.chocolatey.org/
   api_key:
-    secure: %key%
+    secure: NwN4m3lQg5sfkTG4qKDwSSC+jR3bKLkW6ofeGTPZ4k8MtusQSSG5rTpKObwzw2Po
   skip_symbols: true
   artifact: ChocoPackage
