@@ -3,7 +3,7 @@
   <metadata>
     <!-- == PACKAGE SPECIFIC SECTION == -->
     <id>jenkins-x</id>
-    <version>-dev+8b97385</version>
+    <version>-dev+e3a52ac</version>
     <packageSourceUrl>https://github.com/jufab/jenkins-x-chocolatey</packageSourceUrl>
     <owners>Julien Fabre</owners>
     <!-- ============================== -->
