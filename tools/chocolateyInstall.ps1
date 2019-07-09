@@ -1,11 +1,14 @@
 $packageName = 'jenkins-x'
 $toolsPath = Split-Path $MyInvocation.MyCommand.Definition
 $version = $env:ChocolateyPackageVersion
-$url = "https://github.com/jenkins-x/jx/releases/download/v$version/jx-windows-amd64.zip"
-$urlSHA = "https://github.com/jenkins-x/jx/releases/download/v$version/jx-windows-amd64.zip.sha256"
-$fileSHA = "$toolsPath\jenkins-x.sha256"
+$fileZip = "jx-windows-amd64.zip"
+$fileChecksums = "jx-checksums.txt"
+$url = "https://github.com/jenkins-x/jx/releases/download/v$version/$fileZip"
+$urlSHA = "https://github.com/jenkins-x/jx/releases/download/v$version/$fileChecksums"
+$fileSHA = "$toolsPath\$fileChecksums"
 Get-WebFile -Url $urlSHA -FileName $fileSHA
-$checksum = Get-Content -Path $fileSHA
+$matchChecksum = Select-String -Path $fileSHA -Pattern $fileZip -SimpleMatch
+$checksum = $matchChecksum.Line.Split(" ")[0]
 $checksumtype = "sha256" 
 
 if (Test-Path "$toolsPath\jx.exe") {
