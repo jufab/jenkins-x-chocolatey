@@ -1,6 +1,6 @@
 $packageName = 'jenkins-x'
 $toolsPath = Split-Path $MyInvocation.MyCommand.Definition
-$version = $env:ChocolateyPackageVersion
+$version = ([xml](Get-Content .\jenkins-x.nuspec)).package.metadata.version
 $fileZip = "jx-windows-amd64.zip"
 $fileChecksums = "jx-checksums.txt"
 $url = "https://github.com/jenkins-x/jx/releases/download/v$version/$fileZip"
