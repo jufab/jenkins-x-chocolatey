@@ -1,6 +1,7 @@
 $packageName = 'jenkins-x'
 $toolsPath = Split-Path $MyInvocation.MyCommand.Definition
-[xml]$nuspecContent = Get-Content .\jenkins-x.nuspec
+$nuspecPath = Resolve-Path -Path $toolsPath+'\..'
+[xml]$nuspecContent = Get-Content $nuspecPath\jenkins-x.nuspec
 $version = $nuspecContent.package.metadata.version
 $fileZip = "jx-windows-amd64.zip"
 $fileChecksums = "jx-checksums.txt"
