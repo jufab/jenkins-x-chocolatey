@@ -26,5 +26,4 @@ $packageArgs = @{
 }
 Install-ChocolateyZipPackage @packageArgs
 Remove-Item "$toolsPath\jx-windows*.zip"
-Rename-Item -Path "$toolsPath\jx-windows-amd64.exe" -NewName "jx.exe"
 Install-BinFile -Name "jx" -Path "$toolsPath"
