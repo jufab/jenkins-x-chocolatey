@@ -9,7 +9,7 @@ $url = "https://github.com/jenkins-x/jx/releases/download/v$version/$fileZip"
 $urlSHA = "https://github.com/jenkins-x/jx/releases/download/v$version/$fileChecksums"
 $fileSHA = "$toolsPath\$fileChecksums"
 Get-WebFile -Url $urlSHA -FileName $fileSHA
-$matchChecksum = Select-String -Path $fileSHA -Pattern "^jx-windows-amd64\.zip$" -SimpleMatch
+$matchChecksum = Select-String -Path $fileSHA -Pattern "jx-windows-amd64\.zip$"
 $checksum = $matchChecksum.Line.Split(" ")[0]
 $checksumtype = "sha256" 
 
