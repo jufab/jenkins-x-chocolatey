@@ -12,7 +12,7 @@
     <authors>James Strachan</authors>
     <copyright></copyright>
     <projectUrl>https://jenkins-x.io/</projectUrl>
-    <iconUrl>https://cdn.rawgit.com/jenkins-x/jx-docs/cc51c6b4/static/images/logo.png</iconUrl>
+    <iconUrl>https://rawcdn.githack.com/jenkins-x/jx-docs/cc51c6b4/static/images/logo.png</iconUrl>
     <licenseUrl>https://github.com/jenkins-x/jx/blob/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <projectSourceUrl>https://github.com/jenkins-x/jx</projectSourceUrl>
