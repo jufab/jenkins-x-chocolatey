@@ -1,4 +1,4 @@
-$checksum = "7962559465f3f567ad56f9c9bf909751aecf43af6524923a9aa86fc2ace25b5a"
+$checksum = "cd9b3c9cac95329d279e0b5843a92f332c75a316702a31906ff04e4d701fbc55"
 $checksumtype = "sha256"
 $packageName = 'jenkins-x'
 $toolsPath = Split-Path $MyInvocation.MyCommand.Definition
